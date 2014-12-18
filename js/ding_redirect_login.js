@@ -14,6 +14,7 @@
         dialog_title = Drupal.settings.ding_redirect.dialog_title,
         dialog_text = Drupal.settings.ding_redirect.dialog_text;
 
+    // @TODO drupal ships with jquery 1.4 the on method requires version 1.7
     $('.topbar-link-user').on('click touchstart', function(e) {
       // To remove the quick flicker of the login form from the theme, we remove
       // it here. Alternative is to make the theme overridable.

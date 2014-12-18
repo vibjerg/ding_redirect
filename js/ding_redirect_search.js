@@ -32,6 +32,7 @@
 
           if (delay > 0) {
             // Pop a dialog when there is a delay on redirect.
+            //@todo the same code is in ding_redirect_login.js line 23 - 46 - could it be refactored
             var canceled = false;
             var $dialog = $('<div class="ding-redirect-modal">' + dialog_text + '</div>').dialog({
               'modal': true,
